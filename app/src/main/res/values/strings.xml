@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">touchcfg</string>
+    <string name="Intro">Select Touch Mode</string>
+    <string name="btnSubmit">Activate</string>
+    <string name="touchmode_prompt">Select Touch Mode</string>
+
+    <string-array name="touchmode_arrays">
+        <item>Stylus and Finger</item>
+        <item>Glove and Finger</item>
+    </string-array>
+</resources>

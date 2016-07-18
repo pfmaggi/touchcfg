@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><!--This is an auto generated document. Changes to this document may cause incorrect behavior.--><wap-provisioningdoc>
+  <characteristic type="ProfileInfo">
+    <parm name="created_wizard_version" value="4.1.1"/>
+  </characteristic>
+  <characteristic type="Profile">
+    <parm name="ProfileName" value="TouchModeProfile"/>
+    <parm name="ModifiedDate" value="2016-07-18 20:07:05"/>
+    <parm name="TargetSystemVersion" value="4.4"/>
+    <characteristic type="TouchMgr" version="0.3">
+      <parm name="emdk_name" value=""/>
+      <parm name="TouchAction" value="Stylus and Finger"/>
+    </characteristic>
+  </characteristic>
+</wap-provisioningdoc>
