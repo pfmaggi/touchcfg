@@ -4,11 +4,11 @@
   </characteristic>
   <characteristic type="Profile">
     <parm name="ProfileName" value="TouchModeProfile"/>
-    <parm name="ModifiedDate" value="2016-07-18 20:07:05"/>
+    <parm name="ModifiedDate" value="2016-07-19 11:37:08"/>
     <parm name="TargetSystemVersion" value="4.4"/>
-    <characteristic type="TouchMgr" version="0.3">
+  <characteristic type="TouchMgr" version="0.3">
       <parm name="emdk_name" value=""/>
-      <parm name="TouchAction" value="Stylus and Finger"/>
+      <parm name="TouchAction" value="Glove and Finger"/>
     </characteristic>
   </characteristic>
 </wap-provisioningdoc>

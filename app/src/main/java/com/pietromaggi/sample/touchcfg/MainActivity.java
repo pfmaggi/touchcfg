@@ -15,7 +15,6 @@ import com.symbol.emdk.EMDKManager;
 import com.symbol.emdk.EMDKManager.EMDKListener;
 import com.symbol.emdk.EMDKResults;
 import com.symbol.emdk.ProfileManager;
-
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 
@@ -157,6 +156,17 @@ public class MainActivity extends AppCompatActivity implements EMDKListener {
         if (m_EmdkProfile != null) {
             m_btnSet.setEnabled(true);
             m_statusTextView.setText("Status: " + "EMDK initialized correctly. Ready to set profile.");
+
+//            //Call process profile to modify the profile of specified profile name
+//            String[] modifyData = new String[1];
+//
+//            EMDKResults results = m_EmdkProfile.processProfile(profileName, ProfileManager.PROFILE_FLAG.GET, modifyData);
+//
+//            // Get XML response as a String
+//            // String statusXMLResponse = results.getStatusString();
+//
+//            m_statusTextView.setText("Status: " + modifyData[0]);
+
         }
     }
 
